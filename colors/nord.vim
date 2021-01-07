@@ -36,6 +36,9 @@ let s:nord15_gui = "#B48EAD"
 let s:nord16_gui = "#83a598"
 let s:nord17_gui = "#8ec07c"
 let s:nord18_gui = "#076678"
+let s:nord19_gui = "#b2b2b2"
+let s:nord20_gui = "#9a9aba"
+let s:nord21_gui = "#74baac"
 
 let s:nord1_term = "0"
 let s:nord3_term = "8"
@@ -275,12 +278,12 @@ endif
 "+ Language Base Groups +
 "+----------------------+
 call s:hi("Boolean", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Character", s:nord14_gui, "", s:nord14_term, "", "", "")
+call s:hi("Character", s:nord17_gui, "", s:nord14_term, "", "", "")
 call s:hi("Comment", s:nord3_gui_bright, "", s:nord3_term, "", s:italicize_comments, "")
 call s:hi("Conditional", s:nord9_gui, "", s:nord9_term, "", "", "")
 "call s:hi("Constant", s:nord4_gui, "", "NONE", "", "", "")
 call s:hi("Constant", s:nord15_gui, "", "NONE", "", "", "")
-call s:hi("Define", s:nord9_gui, "", s:nord9_term, "", "", "")
+call s:hi("Define", s:nord20_gui, "", s:nord9_term, "", "", "")
 call s:hi("Delimiter", s:nord6_gui, "", s:nord6_term, "", "", "")
 call s:hi("Exception", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Float", s:nord15_gui, "", s:nord15_term, "", "", "")
@@ -293,7 +296,7 @@ call s:hi("Label", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Number", s:nord15_gui, "", s:nord15_term, "", "", "")
 "call s:hi("Operator", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
 call s:hi("Operator", s:nord7_gui, "", s:nord9_term, "", "NONE", "")
-call s:hi("PreProc", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
+call s:hi("PreProc", s:nord8_gui, "", s:nord9_term, "", "NONE", "")
 call s:hi("Repeat", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Special", s:nord16_gui, "", s:nord9_term, "", "", "")
 call s:hi("SpecialChar", s:nord13_gui, "", s:nord13_term, "", "", "")
